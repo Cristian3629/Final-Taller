@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/darius/CLionProjects/finalC/14-07-2016/_Email.cpp">
+			<Option target="finalC"/>
+		</Unit>
+		<Unit filename="/home/darius/CLionProjects/finalC/14-07-2016/_Email.h">
+			<Option target="finalC"/>
+		</Unit>
 		<Unit filename="/home/darius/CLionProjects/finalC/30-07-2013/ejercicio-1/ejercicio1-3.c">
 			<Option target="finalC"/>
 		</Unit>
