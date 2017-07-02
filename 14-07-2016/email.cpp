@@ -13,26 +13,16 @@ de email. Incluya al menos: Constructor Default y Constructor de Copia: Operador
 using namespace std;
 
 Email::Email(string email){
-  this.email = email;
+  this->email = email;
 }
 
 
-Email::Email(const Email & otherEmail)string(otherEmail.email){
-
-}
+Email::Email(const Email & otherEmail):email(otherEmail.email){}
 
 
-//Stream extraction
-//Use Example : cout << email;
-ostream& Email::operator<<(ostream& out,const Email& otherEmail){
-  out << otherEmail.email << '/n';
-  return out;
-}
 
-//Stream insertion
-// Use Example: some_string >> email;
-ostream& Email::operator>>(ostream& in, const Email & otherEmail){
-
+bool Email::operator==(const Email& otherEmail){
+  return this->email == otherEmail.email;
 }
 
 
