@@ -20,16 +20,25 @@ class _Email {
     this->email = other.email;
   }
 
-  std::ostream& operator<<(std::ostream& os, const _Email& email);
+  std::ostream& operator<<(std::ostream& os, const _Email& email){
+    os << email;
+    return os;
+  }
 
-  bool operator==(const _Email& other);
+  bool operator==(const _Email& other){
+    return (email == other.email);
+  }
 
-  void operator=(const _Email& other);
+  void operator=(const _Email& other){
+    this->email = other.email;
+  }
 
-  operator int();
+  operator int(){
+    return 5;
+  }
 
   std::istream& operator>>(std::istream& is, _Email& email){
-    is.getline(&(email.email)[0] , 256);
+    is.getline(&(email.email)[0],256);
     return is;
   }
 };
