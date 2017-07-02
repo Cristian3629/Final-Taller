@@ -57,41 +57,67 @@ include CMakeFiles/finalC.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/finalC.dir/flags.make
 
-CMakeFiles/finalC.dir/main.c.o: CMakeFiles/finalC.dir/flags.make
-CMakeFiles/finalC.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/finalC.dir/main.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/finalC.dir/main.c.o   -c /home/darius/CLionProjects/finalC/main.c
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o: CMakeFiles/finalC.dir/flags.make
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o: ../30-07-2013/ejercicio-7/ejercicio7.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o   -c /home/darius/CLionProjects/finalC/30-07-2013/ejercicio-7/ejercicio7.c
 
-CMakeFiles/finalC.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/finalC.dir/main.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/darius/CLionProjects/finalC/main.c > CMakeFiles/finalC.dir/main.c.i
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/darius/CLionProjects/finalC/30-07-2013/ejercicio-7/ejercicio7.c > CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.i
 
-CMakeFiles/finalC.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/finalC.dir/main.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/darius/CLionProjects/finalC/main.c -o CMakeFiles/finalC.dir/main.c.s
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/darius/CLionProjects/finalC/30-07-2013/ejercicio-7/ejercicio7.c -o CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.s
 
-CMakeFiles/finalC.dir/main.c.o.requires:
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o.requires:
 
-.PHONY : CMakeFiles/finalC.dir/main.c.o.requires
+.PHONY : CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o.requires
 
-CMakeFiles/finalC.dir/main.c.o.provides: CMakeFiles/finalC.dir/main.c.o.requires
-	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/main.c.o.provides.build
-.PHONY : CMakeFiles/finalC.dir/main.c.o.provides
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o.provides: CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o.requires
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o.provides.build
+.PHONY : CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o.provides
 
-CMakeFiles/finalC.dir/main.c.o.provides.build: CMakeFiles/finalC.dir/main.c.o
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o.provides.build: CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o
+
+
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o: CMakeFiles/finalC.dir/flags.make
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o: ../30-07-2013/ejercicio-1/ejercicio1-3.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o   -c /home/darius/CLionProjects/finalC/30-07-2013/ejercicio-1/ejercicio1-3.c
+
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/darius/CLionProjects/finalC/30-07-2013/ejercicio-1/ejercicio1-3.c > CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.i
+
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/darius/CLionProjects/finalC/30-07-2013/ejercicio-1/ejercicio1-3.c -o CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.s
+
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o.requires:
+
+.PHONY : CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o.requires
+
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o.provides: CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o.requires
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o.provides.build
+.PHONY : CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o.provides
+
+CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o.provides.build: CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o
 
 
 # Object files for target finalC
 finalC_OBJECTS = \
-"CMakeFiles/finalC.dir/main.c.o"
+"CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o" \
+"CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o"
 
 # External object files for target finalC
 finalC_EXTERNAL_OBJECTS =
 
-finalC: CMakeFiles/finalC.dir/main.c.o
+finalC: CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o
+finalC: CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o
 finalC: CMakeFiles/finalC.dir/build.make
 finalC: CMakeFiles/finalC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable finalC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable finalC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/finalC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +125,8 @@ CMakeFiles/finalC.dir/build: finalC
 
 .PHONY : CMakeFiles/finalC.dir/build
 
-CMakeFiles/finalC.dir/requires: CMakeFiles/finalC.dir/main.c.o.requires
+CMakeFiles/finalC.dir/requires: CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o.requires
+CMakeFiles/finalC.dir/requires: CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o.requires
 
 .PHONY : CMakeFiles/finalC.dir/requires
 

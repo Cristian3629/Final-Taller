@@ -1,1 +1,1 @@
-/usr/bin/cc  -g   CMakeFiles/finalC.dir/main.c.o  -o finalC 
+/usr/bin/cc  -g   CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o  -o finalC 

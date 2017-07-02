@@ -123,32 +123,59 @@ finalC/fast:
 	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/build
 .PHONY : finalC/fast
 
-main.o: main.c.o
+30-07-2013/ejercicio-1/ejercicio1-3.o: 30-07-2013/ejercicio-1/ejercicio1-3.c.o
 
-.PHONY : main.o
+.PHONY : 30-07-2013/ejercicio-1/ejercicio1-3.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/main.c.o
-.PHONY : main.c.o
+30-07-2013/ejercicio-1/ejercicio1-3.c.o:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.o
+.PHONY : 30-07-2013/ejercicio-1/ejercicio1-3.c.o
 
-main.i: main.c.i
+30-07-2013/ejercicio-1/ejercicio1-3.i: 30-07-2013/ejercicio-1/ejercicio1-3.c.i
 
-.PHONY : main.i
+.PHONY : 30-07-2013/ejercicio-1/ejercicio1-3.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/main.c.i
-.PHONY : main.c.i
+30-07-2013/ejercicio-1/ejercicio1-3.c.i:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.i
+.PHONY : 30-07-2013/ejercicio-1/ejercicio1-3.c.i
 
-main.s: main.c.s
+30-07-2013/ejercicio-1/ejercicio1-3.s: 30-07-2013/ejercicio-1/ejercicio1-3.c.s
 
-.PHONY : main.s
+.PHONY : 30-07-2013/ejercicio-1/ejercicio1-3.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/main.c.s
-.PHONY : main.c.s
+30-07-2013/ejercicio-1/ejercicio1-3.c.s:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/30-07-2013/ejercicio-1/ejercicio1-3.c.s
+.PHONY : 30-07-2013/ejercicio-1/ejercicio1-3.c.s
+
+30-07-2013/ejercicio-7/ejercicio7.o: 30-07-2013/ejercicio-7/ejercicio7.c.o
+
+.PHONY : 30-07-2013/ejercicio-7/ejercicio7.o
+
+# target to build an object file
+30-07-2013/ejercicio-7/ejercicio7.c.o:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o
+.PHONY : 30-07-2013/ejercicio-7/ejercicio7.c.o
+
+30-07-2013/ejercicio-7/ejercicio7.i: 30-07-2013/ejercicio-7/ejercicio7.c.i
+
+.PHONY : 30-07-2013/ejercicio-7/ejercicio7.i
+
+# target to preprocess a source file
+30-07-2013/ejercicio-7/ejercicio7.c.i:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.i
+.PHONY : 30-07-2013/ejercicio-7/ejercicio7.c.i
+
+30-07-2013/ejercicio-7/ejercicio7.s: 30-07-2013/ejercicio-7/ejercicio7.c.s
+
+.PHONY : 30-07-2013/ejercicio-7/ejercicio7.s
+
+# target to generate assembly for a file
+30-07-2013/ejercicio-7/ejercicio7.c.s:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.s
+.PHONY : 30-07-2013/ejercicio-7/ejercicio7.c.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... finalC"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... 30-07-2013/ejercicio-1/ejercicio1-3.o"
+	@echo "... 30-07-2013/ejercicio-1/ejercicio1-3.i"
+	@echo "... 30-07-2013/ejercicio-1/ejercicio1-3.s"
+	@echo "... 30-07-2013/ejercicio-7/ejercicio7.o"
+	@echo "... 30-07-2013/ejercicio-7/ejercicio7.i"
+	@echo "... 30-07-2013/ejercicio-7/ejercicio7.s"
 .PHONY : help
 
 

@@ -1,0 +1,7 @@
+Escriba:
+1. La definición de una función de alcance local al archivo de
+definición, denominada suma que tome como parámetros 2 enteros y devuelva un
+puntero a caracter con el resultado de la suma formateada como una cadena.
+2. La declaración de un puntero a una función que toma como parámetros unentero corto
+sin signo y un puntero a puntero a entero y devuelve un número de punto flotante.
+3. La definición de un puntero a puntero a entero.

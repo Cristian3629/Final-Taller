@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/darius/CLionProjects/finalC/main.c
+/home/darius/CLionProjects/finalC/30-07-2013/ejercicio-7/ejercicio7.c
 stdio.h
 -
 stdbool.h

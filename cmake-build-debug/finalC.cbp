@@ -84,7 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/darius/CLionProjects/finalC/main.c">
+		<Unit filename="/home/darius/CLionProjects/finalC/30-07-2013/ejercicio-1/ejercicio1-3.c">
+			<Option target="finalC"/>
+		</Unit>
+		<Unit filename="/home/darius/CLionProjects/finalC/30-07-2013/ejercicio-7/ejercicio7.c">
 			<Option target="finalC"/>
 		</Unit>
 		<Unit filename="/home/darius/CLionProjects/finalC/CMakeLists.txt">
