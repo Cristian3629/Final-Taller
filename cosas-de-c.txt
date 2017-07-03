@@ -34,13 +34,34 @@ sun_family
 */
 
 
-¿Qué es un Mutex?. Ejemplifique.
+* ¿Qué es un Mutex?. Ejemplifique.
+Es un mecanismo de coordinación entre hilos. Permite que cierta porción
+de código o de memoria no se pueda acceder si es que otro hilo lo está utilizando.
+
+Ejemplo:
+
+Si tenemos N hilos que tiener que acceder a int para leer lo que hay y sumar mas 1
+
+i++;
+
+Pero para que no suceda que hilos lean el mismo i y sumen el mismo valor tenemos
+que permitir que solo 1 hilo pueda tener el recurso. Entonces deberiamos hacer
+siguientes
+
+mutex.lock()
+i++
+mutex.unlock()
+
+normalmente llamamos a la sección que queremos lockear lo llamamos seccion critica.
 
 
-Explique que se entiende por 'compilacion condicional'. Ejemplifique mediante codigo
+//TODO: Creo que esto es lo mismo que #ifndef
+* Explique que se entiende por 'compilacion condicional'. Ejemplifique mediante codigo
 
 
 ¿Qué función se utiliza para lanzar un thread? ¿Cuales son sus parametros?
+
+
 
 
 ¿Qué significa que una función es bloquante?¿Cómo subsanaria esa limitación?
@@ -50,22 +71,114 @@ requieren ser invocadas en cada caso para enviar datos?
 
 
 
-¿Qué es un método virtual? ¿Para qué se usan? Ejemplifique.
+* ¿Qué es un método virtual? ¿Para qué se usan? Ejemplifique.
+
+
+Por defecto cuando usamos polimorfismo, y llamamos a un método de la siguiente forma:
+
+nombre_clase_madre* nombre = new nombre_clase_hija();
+//Figura* figura = new Cuadrado();
+
+Y llamamos a algún método
+
+figura->getArea();
+
+Estamos llamando al método definido en la clase mandre, es decir, en este caso, al getArea()
+de Figura, sin importar si en Cuadrado se redefinio getArea(). Por eso usa se el keywords virtual.
+
+Porque de esta manera al llamar a algun método, C++ se fija si la clase hija redefinió el método y en caso
+de que no exista, sube para arriba buscando la definición del método. Es decir, que con el virtual nos aseguramos
+que mediante el polimorfismo se llame primero al método de la clase fija.
 
 
 
+* ¿Porqué el destructor tiene que ser virtual?
 
-¿Qué es una MACRO? ¿Qué usos tiene? ¿En qué parte del proceso de transformación
+//TODO: Miralo Darius y decime.
+
+* ¿Que és polimorfismo?
+
+Dato interesante:
+|----------------------+--------------|
+| Form                 | Resolved at  |
+|----------------------+--------------|
+| function overloading | compile-time |
+| operator overloading | compile-time |
+| templates            | compile-time |
+| virtual methods      | run-time     |
+|----------------------+--------------|
+
+
+
+Polimorfismo en C++
+
+C++ nos permite acceder a objetos de una clase derivada usando un puntero a la
+clase base. En esa capacidad posible es el polimorfismo.
+
+One of the key features of class inheritance is that a pointer to a derived
+class is type-compatible with a pointer to its base class. Polymorphism is
+the art of taking advantage of this simple but powerful and versatile feature.
+
+
+Por ejemplo:
+
+class Figura{
+  Figura();
+  ~Figura();
+  int getArea(){
+  return 0;
+  }
+}
+
+class Cuadrado: public Figura{
+  Cuadrado(int lado);
+  ~Cuadrado();
+  int getArea();
+}
+
+
+class Circulo: public Figura{
+  Circulo(int radio);
+  ~Circulo();
+  int getArea();
+}
+
+
+int main(){
+  Figura* figura = new Figura();
+  Circulo* circulo = new Circulo(3);
+  Cuadrado* cuadrado = new  Cuadrado(2);
+  std::cout << "El area de la figura es:" << figura->getArea() << std::endl;
+  std::cout << "El area del circulo es:" << circulo->getArea() << std::endl;
+  std::cout << "El area del cuadrado es:" << cuadrado->getArea() << std::endl;
+}
+
+
+* ¿Qué es una MACRO? ¿Qué usos tiene? ¿En qué parte del proceso de transformación
 de código se resuelve?
 
 
 
-¿Qué clase ofrece el paquete STL para encapsular una lista? Ejemplifique su uso.
+* ¿Qué clase ofrece el paquete STL para encapsular una lista? Ejemplifique su uso.
 
 
 
-¿Qué cuidado especial tendría Ud. al momento de escribir un operador= para una
+*Tipos nativos de C,C++
+
+             |byte|
+char         | 1  |
+short int    | 2  | entero corto
+long int     | 4  | entero largo
+int          | 4  | entero
+bool         | 1  | booleano
+float        | 4  | numero de punto flotante
+double       | 8  | punto flotante de doble precision
+long double  | 8  | long de punto flotante de doble precision
+
+
+* ¿Qué cuidado especial tendría Ud. al momento de escribir un operador= para una
 clase que usa memoria dinámica? Ejemplifique.
+
 En C y C++ estamos copiando los objetos puros, bit a bit. Cuando yo estoy copiando algo que tiene una referencia o un puntero, estoy copiando los punteros.
 Puede ocurrir el problema de que puedo estar liberando dos veces el mismo lugar porque las dos copias pueden estar apuntando al mismo lugar. Esto es un problema bastante grave en C++. Básicamente lo que hace el compilador es copiar bit a bit todo sin inteligencia. Si copio algo que tiene un puntero a buffer, no tengo dos copias de buffer independientes, tengo dos cachitos de memoria independientes pero que estan apuntando al mismo cacho del heap. Si le hago una modificación a uno, el otro también la va a ver. Porque el constructor por copia (o la copia que hace C++ por default) es bit a bit. Es muy naive.
 Cuando llamamos a los destructores, el primero libera el cacho de memoria del heap. Va a ocurrir una corrupción de memoria porque se va a hacer un free de algo que ya no existe.
@@ -85,3 +198,33 @@ nombre_de_clase& nombre_de_clase::operator=(const nombre_de_clase& other){
 nombre_de_clase::~nombre_de_clase(){
     free (puntero);
 }
+
+
+* Para que se usa static
+https://stackoverflow.com/questions/572547/what-does-static-mean
+En C
+1 - A static variable inside a function keeps its value between invocations
+
+2 - A static global variable or a function is "seen" only in the file it's declared in
+
+
+"In the C programming language, static is used with global variables and functions
+to set their scope to the containing file. In local variables, static is used
+to store the variable in the statically allocated memory instead of the automatically
+allocated memory. While the language does not dictate the implementation of either
+type of memory, statically allocated memory is typically reserved in
+data segment of the program at compile time, while the automatically allocated
+memory is normally implemented as a transient call stack."
+
+En resumen si defino una variable estatica, esta no esta alojada en el stack, sino que se
+guarda en data segment del programaque se guarda en compile time. Y este existe hasta que el
+programa muera.
+
+Para variables globales es lo mismo, pero creo que si definimos una variable global
+como static, solo es accesible dentro del documento, pero si lo hacemos, por el linkeo
+tambien es accesible desde otro documentos.
+
+En C++
+
+In C++, however, static is also used to define class attributes (shared between
+all objects of the same class) and methods
