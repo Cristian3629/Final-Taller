@@ -37,7 +37,13 @@ sun_family
 ¿Qué es un Mutex?. Ejemplifique.
 
 
+Explique que se entiende por 'compilacion condicional'. Ejemplifique mediante codigo
 
+
+¿Qué función se utiliza para lanzar un thread? ¿Cuales son sus parametros?
+
+
+¿Qué significa que una función es bloquante?¿Cómo subsanaria esa limitación?
 
 ¿Qué diferencias existen entre una comunicación UDP y TCP? ¿Qué funciones
 requieren ser invocadas en cada caso para enviar datos?
