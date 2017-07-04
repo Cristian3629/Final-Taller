@@ -1,5 +1,6 @@
 char* a[10];
 
+
 /*miro a que apunta a algo char, no tengo anda mas a la izquierda y miro a la derecha
 tengo 10 de esos*/
 
@@ -17,7 +18,8 @@ char (*f) (int) //f apunta a una funcion que recibe un int y devuelve un char
 char (*f)(int) [10] //tengo un array de punteros a funciones que recibe un int y devuelve un cha
 
 
-
+* ¿Qué significa _LINE_ y _FILE_ en un fuente C? ¿ Qué usos tienen? ¿ En qué parte  del
+proceso de  transformación de código se resuelve?
 
 //TODO
 #ifndef
@@ -66,8 +68,18 @@ normalmente llamamos a la sección que queremos lockear lo llamamos seccion crit
 
 ¿Qué significa que una función es bloquante?¿Cómo subsanaria esa limitación?
 
+
+
 ¿Qué diferencias existen entre una comunicación UDP y TCP? ¿Qué funciones
 requieren ser invocadas en cada caso para enviar datos?
+
+Tcp te garantiza conexión y orden, es un flujo de bytes (stream).
+TCP ante una corrupción lo que hacer es reenviar. Los bytes nunca se corrompen.
+También en tcp no tenemos duplicados de bytes.
+UDP: no te garantiza conexión ni orden, se pueden perder paquetes,
+se maneja con datagramas (paquetes). Ante una corrupción se pierde. En UDP lo
+mismo que en TCP, los paquetes no se corrompen. En UDP puede haber paquetes duplicados.
+UDP tiene ventajas en cuanto a performance.
 
 
 
