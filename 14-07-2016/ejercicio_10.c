@@ -9,42 +9,74 @@ El ejercicio está bien hecho
 */
 
 #include <stdio.h> //las otras funciones de archivo
+#include <string.h>
+#include <stdlib.h>
+int main(int argc, char* argv[]) {
+ //  int len_a = strlen(A);
+ //  int len_b = strlen(B);
+ //  int len_c = strlen(C);
+ //
+ // int pos_a = 0;
+ // char const* char_ocurrencia = A;
+ // while (char_ocurrencia != NULL) {
+ //   char* char_ocurrencia = strstr(char_ocurrencia,B);
+ //   if (char_ocurrencia != NULL){
+ //     contador_de_ocurrencia_de_b_en_a++;
+ //   }
+ // }
+ //
+ // printf("La cantidad de ocurrencias es:%d\n",contador_de_ocurrencia_de_b_en_a);
 
-int main(int argc, char const *argv[]) {
-  char* A = argv[1];
-  char* B = argv[2];
-  char* C = argv[3];
-  //busco la cantidad de ocurrencias de B en A
-  int len_a = strlen(A);
-  int len_b = strlen(B);
-  int len_c = strlen(C);
-  int contador_de_ocurrencia_de_b_en_a = 0;
-  for (size_t i = 0; i < len_a; i++) {
-    if (A[i] == B[0]){
-      bool b_en_a = true;
-      int pos_desde_donde_comparo = i;
-      for (size_t j = 1; j < len_b; j++) {
-        if (A[pos_desde_donde_comparo + j] != B[j]){
-          b_en_a = false;
+ for (size_t i = 0; i < argc; i++) {
+   printf("%s %d\n", argv[i],(int )i);
+ }
+
+ char* A = argv[1];
+ char* B = argv[2];
+ char* C = argv[3];
+
+ //obtengo la longitud de cada palabra
+ int len_a = strlen(A);
+ int len_b = strlen(B);
+ int len_c = strlen(C);
+
+
+ int contador_de_ocurrencia_de_b_en_a = 0;
+
+ char* char_ocurrencia = A;
+ while (char_ocurrencia != NULL) {
+   char_ocurrencia = strstr(char_ocurrencia,B);
+   if (char_ocurrencia != NULL){
+     contador_de_ocurrencia_de_b_en_a++;
+     char_ocurrencia = &char_ocurrencia[len_b];
+   }
+ }
+
+  printf("Cantidad de ocurrencias:%d\n",contador_de_ocurrencia_de_b_en_a);
+
+  int total_len = len_a + contador_de_ocurrencia_de_b_en_a*(len_b-len_c);
+  char* string_final = (char*)malloc(sizeof(char)*(total_len + 1));
+  string_final[total_len] = '\0';
+
+  int write_pointer = 0;
+  for (size_t read_pointer = 0; read_pointer < len_a; i++) {
+    char c = A[read_pointer];
+    if (c == B[0]){
+      bool is_b = true;
+      //me fijo si lo que encontre es la palabra B
+      for (size_t j = 0; j < len_b; i++) {
+        if (B[j] != A[read_pointer + j]){
+          is_b = false;
           break;
         }
       }
-      if (b_en_a){
-        contador_de_ocurrencia_de_b_en_a++;
-        i = pos_desde_donde_comparo + len_b;
+      if (is_b){
+        for (size_t i = 0; i < count; i++) {
+          /* code */
+        }
       }
     }
   }
-
-  int espacio_que_necesite = contador_de_ocurrencia_de_b_en_a*(len_b - len_c);
-
-  int espacio_total = len_a + espacio_que_necesite;
-  char* array_final = malloc(sizeof(char)*espacio_total + 1);
-
-  int write_pointer = 0;
-  int read_pointer = 0;
-
-  //hacer el merge
 
   return 0;
 }
