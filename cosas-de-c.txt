@@ -189,8 +189,8 @@ nombre_de_clase& nombre_de_clase::operator=(const nombre_de_clase& other){
     if (*this == other){
       return *this;
     }
-    //puntero = other.puntero;
-    *puntero = *other.puntero;
+    //codigo donde copio bit a bit
+    copy(this.puntero,other.puntero);
     return *this;
 }
 
