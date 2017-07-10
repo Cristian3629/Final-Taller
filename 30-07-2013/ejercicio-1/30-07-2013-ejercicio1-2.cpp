@@ -9,7 +9,7 @@ float funcion_ejemplo(unsigned short a, int** b){
   return 1.1;
 }
 
-int  main(int argc, char const *argv[]) {
+int  maina(int argc, char const *argv[]) {
   //aca declaro el puntero a la funcion
   float (*p)(unsigned short, int**);
   //aca lo inicializo

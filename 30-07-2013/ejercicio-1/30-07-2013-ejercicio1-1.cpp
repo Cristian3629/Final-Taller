@@ -11,7 +11,7 @@ static char* sumar(int a, int b){
   return buffer;
 }
 
-int main ()
+int maina ()
 {
   char* result = sumar(1,2);
   printf("El resultado es el siguiente:%s\n", result);

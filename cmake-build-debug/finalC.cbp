@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="finalC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/darius/CLionProjects/finalC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/darius/CLionProjects/finalC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/darius/CLionProjects/finalC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="finalC">
+				<Option output="/home/darius/CLionProjects/finalC/cmake-build-debug/finalC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/darius/CLionProjects/finalC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 finalC"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="finalC/fast">
+				<Option output="/home/darius/CLionProjects/finalC/cmake-build-debug/finalC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/darius/CLionProjects/finalC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 finalC/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/darius/CLionProjects/finalC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/darius/CLionProjects/finalC/14-07-2016/_Email.cpp">
+			<Option target="finalC"/>
+		</Unit>
+		<Unit filename="/home/darius/CLionProjects/finalC/14-07-2016/_Email.h">
+			<Option target="finalC"/>
+		</Unit>
+		<Unit filename="/home/darius/CLionProjects/finalC/14-07-2016/ejercicio-10/ejercicio_10_darius.c">
+			<Option target="finalC"/>
+		</Unit>
+		<Unit filename="/home/darius/CLionProjects/finalC/19-02-2015/ejercicio-3/ejercicio-3-rehecho.c">
+			<Option target="finalC"/>
+		</Unit>
+		<Unit filename="/home/darius/CLionProjects/finalC/19-02-2015/ejercicio-3/ejercicio-3.c">
+			<Option target="finalC"/>
+		</Unit>
+		<Unit filename="/home/darius/CLionProjects/finalC/26-12-2012/ejercicio-7/ejercicio7.c">
+			<Option target="finalC"/>
+		</Unit>
+		<Unit filename="/home/darius/CLionProjects/finalC/30-07-2013/ejercicio-1/ejercicio1-3.c">
+			<Option target="finalC"/>
+		</Unit>
+		<Unit filename="/home/darius/CLionProjects/finalC/30-07-2013/ejercicio-7/ejercicio7.c">
+			<Option target="finalC"/>
+		</Unit>
+		<Unit filename="/home/darius/CLionProjects/finalC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

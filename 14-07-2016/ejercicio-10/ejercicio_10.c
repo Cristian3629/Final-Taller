@@ -11,7 +11,7 @@ El ejercicio está bien hecho
 #include <stdio.h> //las otras funciones de archivo
 #include <string.h>
 #include <stdlib.h>
-int main(int argc, char* argv[]) {
+int maina(int argc, char* argv[]) {
  //  int len_a = strlen(A);
  //  int len_b = strlen(B);
  //  int len_c = strlen(C);

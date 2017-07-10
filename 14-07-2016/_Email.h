@@ -20,7 +20,7 @@ class _Email {
     this->email = other.email;
   }
 
-  std::ostream& operator<<(std::ostream& os, const _Email& email){
+  friend std::ostream& operator<<(std::ostream& os, const _Email& email){
     os << email;
     return os;
   }
@@ -37,7 +37,7 @@ class _Email {
     return 5;
   }
 
-  std::istream& operator>>(std::istream& is, _Email& email){
+  friend std::istream& operator>>(std::istream& is, _Email& email){
     is.getline(&(email.email)[0],256);
     return is;
   }

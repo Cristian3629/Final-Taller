@@ -58,7 +58,7 @@ long calcular_espacio(FILE * file){
   return espacio_a_reservar;
 }
 
-int main() {
+int amain() {
   FILE *file;
   unsigned char c;
 

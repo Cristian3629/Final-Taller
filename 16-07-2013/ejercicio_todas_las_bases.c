@@ -11,7 +11,7 @@ int divide_by_base(int number, int base) {
   printf("%d",resto);
 }
 
-int main(int argc, char *argv[]) {
+int maina(int argc, char *argv[]) {
   int number = 45;
   int base = 2;
   while (base <= 16){

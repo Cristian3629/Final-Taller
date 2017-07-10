@@ -24,7 +24,7 @@ void agregar_texto(char **posicion, char *inicio, char *final){
   *posicion = *posicion + amount;
 }
 
-int main(int argc, char * argv[]){
+int maina(int argc, char * argv[]){
   char * A = argv[1];
   char * B = argv[2];
   char * C = argv[3];

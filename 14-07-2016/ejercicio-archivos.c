@@ -15,7 +15,7 @@ comentarios ()
 #include <stdbool.h> //para usar booleanos
 
 
-int main(int argc, char const *argv[]){
+int maina(int argc, char const *argv[]){
   FILE* fp = fopen("fuente.c","r+");
   if (fp == NULL){
     return 1;
