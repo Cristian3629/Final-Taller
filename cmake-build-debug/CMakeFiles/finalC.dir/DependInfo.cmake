@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/darius/CLionProjects/finalC/14-07-2016/ejercicio-10/ejercicio_10_darius.c" "/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles/finalC.dir/14-07-2016/ejercicio-10/ejercicio_10_darius.c.o"
+  "/home/darius/CLionProjects/finalC/14-12-2012/ejercicio-4/ejercicio-4.c" "/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o"
   "/home/darius/CLionProjects/finalC/19-02-2015/ejercicio-3/ejercicio-3-rehecho.c" "/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles/finalC.dir/19-02-2015/ejercicio-3/ejercicio-3-rehecho.c.o"
   "/home/darius/CLionProjects/finalC/19-02-2015/ejercicio-3/ejercicio-3.c" "/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles/finalC.dir/19-02-2015/ejercicio-3/ejercicio-3.c.o"
   "/home/darius/CLionProjects/finalC/26-12-2012/ejercicio-7/ejercicio7.c" "/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles/finalC.dir/26-12-2012/ejercicio-7/ejercicio7.c.o"
@@ -19,6 +20,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/darius/CLionProjects/finalC/14-07-2016/_Email.cpp" "/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles/finalC.dir/14-07-2016/_Email.cpp.o"
+  "/home/darius/CLionProjects/finalC/14-07-2016/ejecución_overdoaling.cpp" "/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

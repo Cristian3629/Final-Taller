@@ -85,3 +85,9 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+cmake-build-debug/CMakeFiles/CMakeTmp/
+cmake-build-debug/CMakeFiles/finalC.dir/14-07-2016/
+cmake-build-debug/CMakeFiles/finalC.dir/19-02-2015/
+cmake-build-debug/CMakeFiles/finalC.dir/26-12-2012/
+cmake-build-debug/CMakeFiles/finalC.dir/30-07-2013/
+cmake-build-debug/googletest-build/

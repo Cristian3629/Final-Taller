@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int main(int argc, char * argv[]){
+int mainu(int argc, char * argv[]){
 
   FILE * file = fopen("../26-12-2012/ejercicio-7/fuente","r+");
 

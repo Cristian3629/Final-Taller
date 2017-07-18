@@ -14,6 +14,8 @@ class _Email {
  private:
   std::string email;
  public:
+  _Email(){}
+
   _Email(const std::string& email): email(email){}
 
   _Email(const _Email& other){
@@ -21,16 +23,17 @@ class _Email {
   }
 
   friend std::ostream& operator<<(std::ostream& os, const _Email& email){
-    os << email;
+    os << email.email;
     return os;
   }
 
-  bool operator==(const _Email& other){
+  bool operator==(const _Email& other) const {
     return (email == other.email);
   }
 
-  void operator=(const _Email& other){
+  _Email& operator=(const _Email& other){
     this->email = other.email;
+    return *this;
   }
 
   operator int(){

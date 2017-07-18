@@ -225,6 +225,54 @@ CMakeFiles/finalC.dir/26-12-2012/ejercicio-7/ejercicio7.c.o.provides: CMakeFiles
 CMakeFiles/finalC.dir/26-12-2012/ejercicio-7/ejercicio7.c.o.provides.build: CMakeFiles/finalC.dir/26-12-2012/ejercicio-7/ejercicio7.c.o
 
 
+CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o: CMakeFiles/finalC.dir/flags.make
+CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o: ../14-12-2012/ejercicio-4/ejercicio-4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o   -c /home/darius/CLionProjects/finalC/14-12-2012/ejercicio-4/ejercicio-4.c
+
+CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/darius/CLionProjects/finalC/14-12-2012/ejercicio-4/ejercicio-4.c > CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.i
+
+CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/darius/CLionProjects/finalC/14-12-2012/ejercicio-4/ejercicio-4.c -o CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.s
+
+CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o.requires:
+
+.PHONY : CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o.requires
+
+CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o.provides: CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o.requires
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o.provides.build
+.PHONY : CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o.provides
+
+CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o.provides.build: CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o
+
+
+CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o: CMakeFiles/finalC.dir/flags.make
+CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o: ../14-07-2016/ejecución_overdoaling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o -c /home/darius/CLionProjects/finalC/14-07-2016/ejecución_overdoaling.cpp
+
+CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/darius/CLionProjects/finalC/14-07-2016/ejecución_overdoaling.cpp > CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.i
+
+CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/darius/CLionProjects/finalC/14-07-2016/ejecución_overdoaling.cpp -o CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.s
+
+CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o.requires:
+
+.PHONY : CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o.requires
+
+CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o.provides: CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o.requires
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o.provides.build
+.PHONY : CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o.provides
+
+CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o.provides.build: CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o
+
+
 # Object files for target finalC
 finalC_OBJECTS = \
 "CMakeFiles/finalC.dir/30-07-2013/ejercicio-7/ejercicio7.c.o" \
@@ -233,7 +281,9 @@ finalC_OBJECTS = \
 "CMakeFiles/finalC.dir/14-07-2016/ejercicio-10/ejercicio_10_darius.c.o" \
 "CMakeFiles/finalC.dir/19-02-2015/ejercicio-3/ejercicio-3.c.o" \
 "CMakeFiles/finalC.dir/19-02-2015/ejercicio-3/ejercicio-3-rehecho.c.o" \
-"CMakeFiles/finalC.dir/26-12-2012/ejercicio-7/ejercicio7.c.o"
+"CMakeFiles/finalC.dir/26-12-2012/ejercicio-7/ejercicio7.c.o" \
+"CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o" \
+"CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o"
 
 # External object files for target finalC
 finalC_EXTERNAL_OBJECTS =
@@ -245,9 +295,11 @@ finalC: CMakeFiles/finalC.dir/14-07-2016/ejercicio-10/ejercicio_10_darius.c.o
 finalC: CMakeFiles/finalC.dir/19-02-2015/ejercicio-3/ejercicio-3.c.o
 finalC: CMakeFiles/finalC.dir/19-02-2015/ejercicio-3/ejercicio-3-rehecho.c.o
 finalC: CMakeFiles/finalC.dir/26-12-2012/ejercicio-7/ejercicio7.c.o
+finalC: CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o
+finalC: CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o
 finalC: CMakeFiles/finalC.dir/build.make
 finalC: CMakeFiles/finalC.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable finalC"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/darius/CLionProjects/finalC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable finalC"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/finalC.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -262,6 +314,8 @@ CMakeFiles/finalC.dir/requires: CMakeFiles/finalC.dir/14-07-2016/ejercicio-10/ej
 CMakeFiles/finalC.dir/requires: CMakeFiles/finalC.dir/19-02-2015/ejercicio-3/ejercicio-3.c.o.requires
 CMakeFiles/finalC.dir/requires: CMakeFiles/finalC.dir/19-02-2015/ejercicio-3/ejercicio-3-rehecho.c.o.requires
 CMakeFiles/finalC.dir/requires: CMakeFiles/finalC.dir/26-12-2012/ejercicio-7/ejercicio7.c.o.requires
+CMakeFiles/finalC.dir/requires: CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o.requires
+CMakeFiles/finalC.dir/requires: CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o.requires
 
 .PHONY : CMakeFiles/finalC.dir/requires
 

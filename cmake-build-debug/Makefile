@@ -150,6 +150,33 @@ finalC/fast:
 	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/14-07-2016/_Email.cpp.s
 .PHONY : 14-07-2016/_Email.cpp.s
 
+14-07-2016/ejecución_overdoaling.o: 14-07-2016/ejecución_overdoaling.cpp.o
+
+.PHONY : 14-07-2016/ejecución_overdoaling.o
+
+# target to build an object file
+14-07-2016/ejecución_overdoaling.cpp.o:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o
+.PHONY : 14-07-2016/ejecución_overdoaling.cpp.o
+
+14-07-2016/ejecución_overdoaling.i: 14-07-2016/ejecución_overdoaling.cpp.i
+
+.PHONY : 14-07-2016/ejecución_overdoaling.i
+
+# target to preprocess a source file
+14-07-2016/ejecución_overdoaling.cpp.i:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.i
+.PHONY : 14-07-2016/ejecución_overdoaling.cpp.i
+
+14-07-2016/ejecución_overdoaling.s: 14-07-2016/ejecución_overdoaling.cpp.s
+
+.PHONY : 14-07-2016/ejecución_overdoaling.s
+
+# target to generate assembly for a file
+14-07-2016/ejecución_overdoaling.cpp.s:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.s
+.PHONY : 14-07-2016/ejecución_overdoaling.cpp.s
+
 14-07-2016/ejercicio-10/ejercicio_10_darius.o: 14-07-2016/ejercicio-10/ejercicio_10_darius.c.o
 
 .PHONY : 14-07-2016/ejercicio-10/ejercicio_10_darius.o
@@ -176,6 +203,33 @@ finalC/fast:
 14-07-2016/ejercicio-10/ejercicio_10_darius.c.s:
 	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/14-07-2016/ejercicio-10/ejercicio_10_darius.c.s
 .PHONY : 14-07-2016/ejercicio-10/ejercicio_10_darius.c.s
+
+14-12-2012/ejercicio-4/ejercicio-4.o: 14-12-2012/ejercicio-4/ejercicio-4.c.o
+
+.PHONY : 14-12-2012/ejercicio-4/ejercicio-4.o
+
+# target to build an object file
+14-12-2012/ejercicio-4/ejercicio-4.c.o:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o
+.PHONY : 14-12-2012/ejercicio-4/ejercicio-4.c.o
+
+14-12-2012/ejercicio-4/ejercicio-4.i: 14-12-2012/ejercicio-4/ejercicio-4.c.i
+
+.PHONY : 14-12-2012/ejercicio-4/ejercicio-4.i
+
+# target to preprocess a source file
+14-12-2012/ejercicio-4/ejercicio-4.c.i:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.i
+.PHONY : 14-12-2012/ejercicio-4/ejercicio-4.c.i
+
+14-12-2012/ejercicio-4/ejercicio-4.s: 14-12-2012/ejercicio-4/ejercicio-4.c.s
+
+.PHONY : 14-12-2012/ejercicio-4/ejercicio-4.s
+
+# target to generate assembly for a file
+14-12-2012/ejercicio-4/ejercicio-4.c.s:
+	$(MAKE) -f CMakeFiles/finalC.dir/build.make CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.s
+.PHONY : 14-12-2012/ejercicio-4/ejercicio-4.c.s
 
 19-02-2015/ejercicio-3/ejercicio-3-rehecho.o: 19-02-2015/ejercicio-3/ejercicio-3-rehecho.c.o
 
@@ -324,9 +378,15 @@ help:
 	@echo "... 14-07-2016/_Email.o"
 	@echo "... 14-07-2016/_Email.i"
 	@echo "... 14-07-2016/_Email.s"
+	@echo "... 14-07-2016/ejecución_overdoaling.o"
+	@echo "... 14-07-2016/ejecución_overdoaling.i"
+	@echo "... 14-07-2016/ejecución_overdoaling.s"
 	@echo "... 14-07-2016/ejercicio-10/ejercicio_10_darius.o"
 	@echo "... 14-07-2016/ejercicio-10/ejercicio_10_darius.i"
 	@echo "... 14-07-2016/ejercicio-10/ejercicio_10_darius.s"
+	@echo "... 14-12-2012/ejercicio-4/ejercicio-4.o"
+	@echo "... 14-12-2012/ejercicio-4/ejercicio-4.i"
+	@echo "... 14-12-2012/ejercicio-4/ejercicio-4.s"
 	@echo "... 19-02-2015/ejercicio-3/ejercicio-3-rehecho.o"
 	@echo "... 19-02-2015/ejercicio-3/ejercicio-3-rehecho.i"
 	@echo "... 19-02-2015/ejercicio-3/ejercicio-3-rehecho.s"

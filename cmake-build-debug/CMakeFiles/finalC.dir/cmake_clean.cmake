@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/finalC.dir/19-02-2015/ejercicio-3/ejercicio-3.c.o"
   "CMakeFiles/finalC.dir/19-02-2015/ejercicio-3/ejercicio-3-rehecho.c.o"
   "CMakeFiles/finalC.dir/26-12-2012/ejercicio-7/ejercicio7.c.o"
+  "CMakeFiles/finalC.dir/14-12-2012/ejercicio-4/ejercicio-4.c.o"
+  "CMakeFiles/finalC.dir/14-07-2016/ejecución_overdoaling.cpp.o"
   "finalC.pdb"
   "finalC"
 )
